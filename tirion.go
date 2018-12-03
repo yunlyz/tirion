@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import "github.com/yunlyz/tirion/goproxy"
 
+func main() {
+	goproxy.Start()
 }
